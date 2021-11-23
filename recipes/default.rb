@@ -10,7 +10,7 @@ package 'net-tools'
 package 'apache2'
 
 file '/var/www/html/index.html' do
-  content 'Hello Chef!'
+  content 'Hello Automated Infrastructure!'
 end
 
 service 'apache2' do
